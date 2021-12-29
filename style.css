@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body main{
+  width: 70% ;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0);
+}
+.menu ul{
+text-align: center;
+}
+.menu ul li{
+display: inline-block;
+border: 1px solid rgb(173, 6, 6);
+margin-left: -5px;
+}
+.menu ul li a{
+display: block;
+padding: 20px;
+color: rgb(218, 25, 25);
+background-color: rgb(12, 12, 12);
+transition: .4s;
+text-transform: uppercase;
+}
+.menu ul li a:hover{
+
+background-color: rgb(218, 25, 25);
+color: rgb(12, 12, 12);
+}
+.banner{
+  text-align: center;
+  padding: 200px 0;
+  background-image:url(./assets/image/peakpx\ \(1\).jpg) ;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.banner h1{
+  color: rgb(235, 25, 25);
+  width: 40%;
+  background-color: rgba(58, 57, 57, 0.322);
+  margin:20px auto ;
+  padding: 10px;
+  text-transform:capitalize;
+  display: block;
+  }
+.banner h6{
+    color: rgb(230, 18, 18);
+    width: 40%; 
+    text-transform: capitalize;
+    padding: 10px; 
+    margin: 20px auto; 
+    background-color:rgba(58, 57, 57, 0.322);
+    display: block;
+    font-size: 20px;
+}
+.banner a{
+  
+  color: black;
+ background-color: rgba(252, 8, 8, 0.959);
+ background-color: black;
+ color: rgba(252, 8, 8, 0.959);
+  transition: .4s;
+  text-transform: uppercase;
+  padding: 10px; 
+  
+  
+}
+.banner a:hover{
+  color: black;
+ background-color: rgba(252, 8, 8, 0.959);
+}
+
+.footer{
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: rgb(230, 16, 16);
+  padding: 30px 0;
+
+}
+.footer p a{
+  color: rgb(238, 16, 16);
+  transition: .4s;
+}
+.footer p a:hover{
+color: blue;
+}
+menu{
+  margin-top: 12px;
+}
+.social-menu li{
+  display: inline-block;
+}
+.social-menu li a{
+  background-color: rgb(240, 16, 16);
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 19px;
+  color: rgb(233, 237, 241);
+  transition: .4s;
+}
+.social-menu li:hover a{
+  background-color: rgb(30, 117, 230);
+  color: rgb(248, 244, 244);
+}
